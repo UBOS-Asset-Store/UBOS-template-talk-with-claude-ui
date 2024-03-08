@@ -406,17 +406,11 @@
                                                                     },
                                                                     {
                                                                         "key": "getChatDataUrl"
-                                                                    },
-                                                                    {
-                                                                        "key": "sendMessageDisabled"
                                                                     }
                                                                 ],
                                                                 "dynamicTriggerPathList": [],
-                                                                "sendMessageDisabled": "{{main.store.init ? main.store.init : true}}",
+                                                                "sendMessageDisabled": false,
                                                                 "dynamicPropertyPathList": [
-                                                                    {
-                                                                        "key": "sendMessageDisabled"
-                                                                    },
                                                                     {
                                                                         "key": "getChatDataUrl"
                                                                     }
